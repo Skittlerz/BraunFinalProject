@@ -1,0 +1,467 @@
+
+Requested file: WebRoot\default.htm
+Time: 20160421_083909
+Requested file: WebRoot\query.htm
+Time: 20160421_083916
+Requested file: WebRoot\doSERVICE?Criteria=12345&Field=empid&submit=Run+Service
+Time: 20160421_083924
+Requested file: WebRoot\doSERVICE?Criteria=Amanda&Field=FirstName&submit=Run+Service
+Time: 20160421_083936
+Requested file: WebRoot\query.htm
+Time: 20160421_085339
+Requested file: WebRoot\doSERVICE?Criteria=hello&Field=empid&submit=Run+Service
+Time: 20160421_085347
+Requested file: WebRoot\query.htm
+Time: 20160421_085625
+Requested file: WebRoot\doSERVICE?Criteria=hi&Field=empid&submit=Run+Service
+Time: 20160421_085631
+Requested file: WebRoot\doSERVICE?Criteria=hi&Field=empid&submit=Run+Service
+Time: 20160421_085632
+Requested file: WebRoot\doSERVICE?Criteria=hi&Field=empid&submit=Run+Service
+Time: 20160421_085632
+Requested file: WebRoot\doSERVICE?Criteria=hi&Field=empid&submit=Run+Service
+Time: 20160421_085632
+Requested file: WebRoot\doSERVICE?Criteria=hi&Field=empid&submit=Run+Service
+Time: 20160421_085632
+Requested file: WebRoot\doSERVICE?Criteria=hi&Field=empid&submit=Run+Service
+Time: 20160421_085632
+Requested file: WebRoot\doSERVICE?Criteria=hi&Field=empid&submit=Run+Service
+Time: 20160421_085632
+Requested file: WebRoot\default.htm
+Time: 20160421_090531
+Requested file: WebRoot\pagenotfound.htm
+Time: 20160421_090538
+java.io.FileNotFoundException: WebRoot\Util\PageNotFound.htm (The system cannot find the file specified)
+Time: 20160421_090538
+java.util.NoSuchElementException: No line found
+Time: 20160421_090554
+Requested file: WebRoot\subdir/default.htm
+Time: 20160421_090701
+Requested file: WebRoot\util/default.htm
+Time: 20160421_090753
+Requested file: WebRoot\util/default.htm
+Time: 20160421_090801
+Requested file: WebRoot\util/default.htm
+Time: 20160421_090804
+java.util.NoSuchElementException: No line found
+Time: 20160421_090821
+Requested file: WebRoot\default.htm
+Time: 20160421_101755
+Requested file: WebRoot\query.htm
+Time: 20160421_101759
+Requested file: WebRoot\doSERVICE?Criteria=Robbie&Field=FirstName&submit=Run+Service
+Time: 20160421_101804
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'Robbie'
+Time: 20160421_101804
+Requested file: WebRoot\doSERVICE?Criteria=3000&Field=JobCode&submit=Run+Service
+Time: 20160421_101813
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 3000
+Time: 20160421_101813
+Requested file: WebRoot\doSERVICE?Criteria=4000&Field=JobCode&submit=Run+Service
+Time: 20160421_101822
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 4000
+Time: 20160421_101822
+java.util.NoSuchElementException: No line found
+Time: 20160421_101825
+Requested file: WebRoot\default.htm
+Time: 20160425_122747
+Requested file: WebRoot\query.htm
+Time: 20160425_122752
+Requested file: WebRoot\doSERVICE?Criteria=Robbie&Field=FirstName&submit=Run+Service
+Time: 20160425_122803
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'Robbie'
+Time: 20160425_122803
+java.sql.SQLException: ORA-00904: "FIRSTNAME": invalid identifier
+
+Time: 20160425_122803
+Requested file: WebRoot\doSERVICE?Criteria=12345&Field=empid&submit=Run+Service
+Time: 20160425_122818
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE empid = 12345
+Time: 20160425_122818
+java.sql.SQLException: ORA-00904: "JOBCODEDATE": invalid identifier
+
+Time: 20160425_122818
+Requested file: WebRoot\doSERVICE?Criteria=12345&Field=empid&submit=Run+Service
+Time: 20160425_122818
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE empid = 12345
+Time: 20160425_122818
+java.sql.SQLException: ORA-00904: "JOBCODEDATE": invalid identifier
+
+Time: 20160425_122818
+Requested file: WebRoot\query.htm
+Time: 20160425_123055
+Requested file: WebRoot\doSERVICE?Criteria=12345&Field=empid&submit=Run+Service
+Time: 20160425_123101
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE empid = 12345
+Time: 20160425_123101
+java.sql.SQLException: ORA-00904: "JOBCODEDATE": invalid identifier
+
+Time: 20160425_123101
+java.util.NoSuchElementException: No line found
+Time: 20160425_123127
+Requested file: WebRoot\default.htm
+Time: 20160425_123458
+Requested file: WebRoot\query.htm
+Time: 20160425_123504
+Requested file: WebRoot\doSERVICE?Criteria=12345&Field=empid&submit=Run+Service
+Time: 20160425_123514
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE empid = 12345
+Time: 20160425_123514
+Requested file: WebRoot\doSERVICE?Criteria=2000&Field=JobCode&submit=Run+Service
+Time: 20160425_123529
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 2000
+Time: 20160425_123529
+Requested file: WebRoot\default.htm
+Time: 20160425_123647
+Requested file: WebRoot\TEstpages.htm
+Time: 20160425_123653
+Requested file: WebRoot\TEstpage.htm
+Time: 20160425_123657
+Requested file: WebRoot\default.htm
+Time: 20160425_123715
+Requested file: WebRoot\TestPage.htm
+Time: 20160425_123818
+Requested file: WebRoot\TestPage.htm
+Time: 20160425_123900
+Requested file: WebRoot\~/default.htm
+Time: 20160425_123903
+Requested file: WebRoot\TEstpage.htm
+Time: 20160425_123935
+Requested file: WebRoot\TEstpage.htm
+Time: 20160425_123955
+Requested file: WebRoot\default.htm
+Time: 20160425_123957
+Requested file: WebRoot\default.htm
+Time: 20160425_124135
+Requested file: WebRoot\default.htm
+Time: 20160425_124205
+Requested file: WebRoot\query.htm
+Time: 20160425_124208
+Requested file: WebRoot\testpage.htm
+Time: 20160425_124211
+Requested file: WebRoot\default.htm
+Time: 20160425_124213
+Requested file: WebRoot\query.htm
+Time: 20160425_124215
+Requested file: WebRoot\query.htm
+Time: 20160425_131724
+Requested file: WebRoot\doSERVICE?Criteria=robbie&Field=FirstName&submit=Run+Service
+Time: 20160425_131738
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'robbie'
+Time: 20160425_131738
+Requested file: WebRoot\query.htm
+Time: 20160425_131740
+Requested file: WebRoot\doSERVICE?Criteria=2000&Field=JobCode&submit=Run+Service
+Time: 20160425_131941
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 2000
+Time: 20160425_131941
+Requested file: WebRoot\query.htm
+Time: 20160425_131944
+Requested file: WebRoot\query.htm
+Time: 20160425_140028
+Requested file: WebRoot\doSERVICE?Criteria=2000&Field=JobCode&submit=Run+Service
+Time: 20160425_140033
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 2000
+Time: 20160425_140033
+Requested file: WebRoot\query.htm
+Time: 20160425_140039
+Requested file: WebRoot\doSERVICE?Criteria=dasilva&Field=FirstName&submit=Run+Service
+Time: 20160425_140050
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'dasilva'
+Time: 20160425_140050
+Requested file: WebRoot\query.htm
+Time: 20160425_140052
+Requested file: WebRoot\doSERVICE?Criteria=da+silva&Field=FirstName&submit=Run+Service
+Time: 20160425_140055
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'da+silva'
+Time: 20160425_140055
+Requested file: WebRoot\query.htm
+Time: 20160425_140057
+Requested file: WebRoot\doSERVICE?Criteria=Dasilva&Field=LastName&submit=Run+Service
+Time: 20160425_140101
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE LastName = 'Dasilva'
+Time: 20160425_140101
+Requested file: WebRoot\query.htm
+Time: 20160425_140103
+Requested file: WebRoot\doSERVICE?Criteria=Da+Silva&Field=LastName&submit=Run+Service
+Time: 20160425_140110
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE LastName = 'Da+Silva'
+Time: 20160425_140110
+Requested file: WebRoot\query.htm
+Time: 20160425_140111
+Requested file: WebRoot\doSERVICE?Criteria=robbie&Field=FirstName&submit=Run+Service
+Time: 20160425_140131
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'robbie'
+Time: 20160425_140131
+Requested file: WebRoot\query.htm
+Time: 20160425_140143
+Requested file: WebRoot\doSERVICE?Criteria=3000&Field=JobCode&submit=Run+Service
+Time: 20160425_140148
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 3000
+Time: 20160425_140148
+Requested file: WebRoot\doSERVICE?Criteria=72201&Field=empid&submit=Run+Service
+Time: 20160425_140202
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE empid = 72201
+Time: 20160425_140202
+Requested file: WebRoot\doSERVICE?Criteria=Gerry&Field=FirstName&submit=Run+Service
+Time: 20160425_140215
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'Gerry'
+Time: 20160425_140215
+Requested file: WebRoot\doSERVICE?Criteria=Novak&Field=FirstName&submit=Run+Service
+Time: 20160425_140221
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'Novak'
+Time: 20160425_140221
+Requested file: WebRoot\doSERVICE?Criteria=novak&Field=LastName&submit=Run+Service
+Time: 20160425_140230
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE LastName = 'novak'
+Time: 20160425_140230
+Requested file: WebRoot\query.htm
+Time: 20160425_140231
+Requested file: WebRoot\doSERVICE?Criteria=3000&Field=JobCode&submit=Run+Service
+Time: 20160425_140237
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 3000
+Time: 20160425_140237
+Requested file: WebRoot\query.htm
+Time: 20160425_140246
+Requested file: WebRoot\doSERVICE?Criteria=Ramirez&Field=LastName&submit=Run+Service
+Time: 20160425_140252
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE LastName = 'Ramirez'
+Time: 20160425_140252
+Requested file: WebRoot\query.htm
+Time: 20160425_140255
+Requested file: WebRoot\doSERVICE?Criteria=Novak&Field=LastName&submit=Run+Service
+Time: 20160425_140301
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE LastName = 'Novak'
+Time: 20160425_140301
+Requested file: WebRoot\query.htm
+Time: 20160425_140308
+Requested file: WebRoot\doSERVICE?Criteria=novak&Field=LastName&submit=Run+Service
+Time: 20160425_140314
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE LastName = 'novak'
+Time: 20160425_140314
+Requested file: WebRoot\query.htm
+Time: 20160425_140316
+Requested file: WebRoot\doSERVICE?Criteria=Gerry&Field=FirstName&submit=Run+Service
+Time: 20160425_140353
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE FirstName = 'Gerry'
+Time: 20160425_140353
+Requested file: WebRoot\query.htm
+Time: 20160425_140411
+Requested file: WebRoot\query.htm
+Time: 20160425_140750
+Requested file: WebRoot\doSERVICE?Criteria=novak&Field=LastName&submit=Run+Service
+Time: 20160425_140757
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(LastName) = lower('novak')
+Time: 20160425_140757
+Requested file: WebRoot\query.htm
+Time: 20160425_140759
+Requested file: WebRoot\doSERVICE?Criteria=gerry&Field=FirstName&submit=Run+Service
+Time: 20160425_140803
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName) = lower('gerry')
+Time: 20160425_140803
+Requested file: WebRoot\query.htm
+Time: 20160425_140805
+Requested file: WebRoot\doSERVICE?Criteria=ramirez&Field=LastName&submit=Run+Service
+Time: 20160425_140811
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(LastName) = lower('ramirez')
+Time: 20160425_140811
+Requested file: WebRoot\query.htm
+Time: 20160425_140813
+Requested file: WebRoot\doSERVICE?Criteria=RAMIREZ&Field=LastName&submit=Run+Service
+Time: 20160425_140824
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(LastName) = lower('RAMIREZ')
+Time: 20160425_140824
+Requested file: WebRoot\query.htm
+Time: 20160425_140826
+Requested file: WebRoot\default.htm
+Time: 20160428_093040
+Requested file: WebRoot\testpage.htm
+Time: 20160428_093045
+Requested file: WebRoot\default.htm
+Time: 20160428_093046
+Requested file: WebRoot\defadefault.htm
+Time: 20160428_093107
+Requested file: WebRoot\default.htm
+Time: 20160428_093114
+Requested file: WebRoot\default.htm
+Time: 20160428_100633
+Requested file: WebRoot\query.htm
+Time: 20160428_100636
+Requested file: WebRoot\doSERVICE?Criteria=3000&Field=JobCode&submit=Run+Service
+Time: 20160428_100647
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 3000
+Time: 20160428_100647
+Requested file: WebRoot\query.htm
+Time: 20160428_100652
+Requested file: WebRoot\default.htm
+Time: 20160428_100855
+Requested file: WebRoot\testpage.htm
+Time: 20160428_100905
+Requested file: WebRoot\query.htm
+Time: 20160428_100914
+Requested file: WebRoot\homedefault.htm
+Time: 20160428_104422
+File not found: WebRoot\homedefault.htm
+Time: 20160428_104422
+Requested file: WebRoot\query.htm
+Time: 20160428_112048
+Requested file: WebRoot\doSERVICE?Criteria=3000&Field=JobCode&submit=Run+Service
+Time: 20160428_112054
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 3000
+Time: 20160428_112054
+Requested file: WebRoot\query.htm
+Time: 20160428_112057
+Requested file: WebRoot\doSERVICE?Criteria=kerry&Field=FirstName&submit=Run+Service
+Time: 20160428_112105
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName = lower('kerry')
+Time: 20160428_112105
+java.sql.SQLException: ORA-00907: missing right parenthesis
+
+Time: 20160428_112105
+Requested file: WebRoot\doSERVICE?Criteria=gerry&Field=FirstName&submit=Run+Service
+Time: 20160428_112116
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName = lower('gerry')
+Time: 20160428_112116
+java.sql.SQLException: ORA-00907: missing right parenthesis
+
+Time: 20160428_112116
+Requested file: WebRoot\doSERVICE?Criteria=gerry&Field=FirstName&submit=Run+Service
+Time: 20160428_112116
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName = lower('gerry')
+Time: 20160428_112116
+java.sql.SQLException: ORA-00907: missing right parenthesis
+
+Time: 20160428_112116
+Requested file: WebRoot\doSERVICE?Criteria=novak&Field=LastName&submit=Run+Service
+Time: 20160428_112125
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(LastName = lower('novak')
+Time: 20160428_112125
+java.sql.SQLException: ORA-00907: missing right parenthesis
+
+Time: 20160428_112125
+Requested file: WebRoot\doSERVICE?Criteria=12345&Field=empid&submit=Run+Service
+Time: 20160428_112142
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE empid = 12345
+Time: 20160428_112142
+Requested file: WebRoot\query.htm
+Time: 20160428_112144
+Requested file: WebRoot\doSERVICE?Criteria=Gerry&Field=FirstName&submit=Run+Service
+Time: 20160428_112152
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName = lower('Gerry')
+Time: 20160428_112152
+java.sql.SQLException: ORA-00907: missing right parenthesis
+
+Time: 20160428_112152
+Requested file: WebRoot\doSERVICE?Criteria=Novak&Field=LastName&submit=Run+Service
+Time: 20160428_112202
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(LastName = lower('Novak')
+Time: 20160428_112202
+java.sql.SQLException: ORA-00907: missing right parenthesis
+
+Time: 20160428_112202
+Requested file: WebRoot\doSERVICE?Criteria=Novak&Field=LastName&submit=Run+Service
+Time: 20160428_112202
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(LastName = lower('Novak')
+Time: 20160428_112202
+java.sql.SQLException: ORA-00907: missing right parenthesis
+
+Time: 20160428_112202
+Requested file: WebRoot\query.htm
+Time: 20160428_112302
+Requested file: WebRoot\doSERVICE?Criteria=Gerry&Field=FirstName&submit=Run+Service
+Time: 20160428_112306
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName) = lower('Gerry')
+Time: 20160428_112306
+Requested file: WebRoot\query.htm
+Time: 20160428_112310
+Requested file: WebRoot\doSERVICE?Criteria=novak&Field=LastName&submit=Run+Service
+Time: 20160428_112315
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(LastName) = lower('novak')
+Time: 20160428_112315
+Requested file: WebRoot\query.htm
+Time: 20160428_112501
+Requested file: WebRoot\default.htm
+Time: 20160428_112505
+Requested file: WebRoot\default.htm
+Time: 20160428_112509
+Requested file: WebRoot\default.htm
+Time: 20160428_112518
+Requested file: WebRoot\testpage.htm
+Time: 20160428_112524
+Requested file: WebRoot\default.htm
+Time: 20160428_122430
+Requested file: WebRoot\favicon.icodefault.htm
+Time: 20160428_122430
+File not found: WebRoot\favicon.icodefault.htm
+Time: 20160428_122430
+Requested file: WebRoot\query.htm
+Time: 20160428_122517
+Requested file: WebRoot\favicon.icodefault.htm
+Time: 20160428_122517
+File not found: WebRoot\favicon.icodefault.htm
+Time: 20160428_122517
+Requested file: WebRoot\doSERVICE?Criteria=gerry&Field=FirstName&submit=Run+Service
+Time: 20160428_122523
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName) = lower('gerry')
+Time: 20160428_122523
+Requested file: WebRoot\query.htm
+Time: 20160428_122525
+Requested file: WebRoot\default.htm
+Time: 20160428_122529
+Requested file: WebRoot\testpage.htm
+Time: 20160428_122704
+Requested file: WebRoot\default.htm
+Time: 20160428_122705
+Requested file: WebRoot\query.htm
+Time: 20160428_122706
+Requested file: WebRoot\doSERVICE?Criteria=gerry&Field=FirstName&submit=Run+Service
+Time: 20160428_122712
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName) = lower('gerry')
+Time: 20160428_122712
+Requested file: WebRoot\query.htm
+Time: 20160428_122715
+Requested file: WebRoot\doSERVICE?Criteria=3000&Field=JobCode&submit=Run+Service
+Time: 20160428_122724
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE JobCode = 3000
+Time: 20160428_122724
+Requested file: WebRoot\query.htm
+Time: 20160428_122732
+Requested file: WebRoot\homedefault.htm
+Time: 20160428_122740
+File not found: WebRoot\homedefault.htm
+Time: 20160428_122740
+java.util.NoSuchElementException: No line found
+Time: 20160428_122746
+Requested file: WebRoot\default.htm
+Time: 20161201_160856
+Requested file: WebRoot\favicon.icodefault.htm
+Time: 20161201_160857
+File not found: WebRoot\favicon.icodefault.htm
+Time: 20161201_160857
+Requested file: WebRoot\query.htm
+Time: 20161201_160902
+Requested file: WebRoot\favicon.icodefault.htm
+Time: 20161201_160902
+File not found: WebRoot\favicon.icodefault.htm
+Time: 20161201_160902
+Requested file: WebRoot\doSERVICE?Criteria=jo&Field=FirstName&submit=Run+Service
+Time: 20161201_160908
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName) = lower('jo')
+Time: 20161201_160908
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+Time: 20161201_160908
+Requested file: WebRoot\doSERVICE?Criteria=jo&Field=FirstName&submit=Run+Service
+Time: 20161201_160909
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName) = lower('jo')
+Time: 20161201_160909
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+Time: 20161201_160910
+Requested file: WebRoot\doSERVICE?Criteria=jo&Field=FirstName&submit=Run+Service
+Time: 20161201_160915
+SELECT EmpId, SIN, LastName, FirstName, Street, City, Province, PostalCode, JobCode, IncomeTax,to_char(birthDate, 'Month dd yyyy'), to_char(hireDate, 'Month dd yyyy'), to_char(jobCodeDate, 'Month dd yyyy')FROM EMPLOYEE WHERE lower(FirstName) = lower('jo')
+Time: 20161201_160915
+java.sql.SQLException: ORA-01017: invalid username/password; logon denied
+
+Time: 20161201_160920
